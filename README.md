@@ -1,6 +1,6 @@
 # record_iterable_utils
 
-A Dart package providing a collection of extension methods and utility functions for working with iterable records (tuples).
+A Dart package providing a collection of extension methods and utility functions for working with iterable records.
 
 ## Features
 
