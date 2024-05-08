@@ -1,0 +1,11 @@
+name: record_iterable_utils
+description: A starting point for Dart libraries or applications.
+version: 0.1.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dev_dependencies:
+  lints: ^3.0.0
+  test: ^1.24.0
