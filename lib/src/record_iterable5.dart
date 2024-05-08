@@ -1,4 +1,4 @@
-extension IterableRecord5<T1, T2, T3, T4, T5>
+extension RecordIterable5<T1, T2, T3, T4, T5>
     on Iterable<(T1, T2, T3, T4, T5)> {
   Iterable<T> mapRecord<T>(
           T Function(T1 t1, T2 t2, T3 t3, T4 t4, T5 t5) toElement) =>

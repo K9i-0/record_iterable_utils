@@ -1,4 +1,4 @@
-extension IterableRecord9<T1, T2, T3, T4, T5, T6, T7, T8, T9>
+extension RecordIterable9<T1, T2, T3, T4, T5, T6, T7, T8, T9>
     on Iterable<(T1, T2, T3, T4, T5, T6, T7, T8, T9)> {
   Iterable<T> mapRecord<T>(
           T Function(
