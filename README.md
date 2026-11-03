@@ -42,3 +42,8 @@ final filteredStudents = students.whereRecord((name, age) => age >= 21);
 print(filteredStudents);
 // Output: ((Bob, 22), (David, 21))
 ```
+
+## Development
+
+See the [development guide](AGENTS.md) for CLI checks, SDK compatibility, and
+guidance for working with an existing pull request.
