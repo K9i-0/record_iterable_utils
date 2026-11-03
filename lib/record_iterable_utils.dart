@@ -1,5 +1,3 @@
-library record_iterable_utils;
-
 export 'src/record_iterable2.dart';
 export 'src/record_iterable3.dart';
 export 'src/record_iterable4.dart';
