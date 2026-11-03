@@ -37,11 +37,6 @@ unrelated runtime checks. Report the commands actually run and any limits.
 
 ## Working with existing changes
 
-- Inspect `git status`, the current branch, and matching open pull requests
-  before editing. Continue the task's existing branch/PR when applicable and
-  preserve unrelated work.
-- Keep dependency, API, and documentation changes scoped to the request. Update
-  `CHANGELOG.md` for user-visible behavior changes.
-- Do not infer a merge, tag, or pub.dev release from a maintenance request.
-  `dart pub publish --dry-run` can check release packaging when relevant;
-  publishing a version is a separate operation.
+- Maintainers work and commit directly on `main`, then push without a separate PR. Preserve unrelated local work. Pull requests are for outside contributions and dependency bots.
+- Use Conventional Commits. A `main` push runs checks and does not publish.
+- Publish only when a release is requested, by pushing `<package>-v<version>` after all release checks pass. Follow [doc/releasing.md](doc/releasing.md); do not run a manual publish command.

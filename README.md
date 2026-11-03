@@ -47,3 +47,5 @@ print(filteredStudents);
 
 See the [development guide](AGENTS.md) for CLI checks, SDK compatibility, and
 guidance for working with an existing pull request.
+
+Maintainers work on `main`; releases use package-version tags after checks pass. See [the release procedure](doc/releasing.md).
